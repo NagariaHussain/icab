@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2024-03-30 10:18:32.201735",
+ "date_changed": "booking_for",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Booking",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hi Irfan!\n\nA new booking got created for {{doc.vehicle}}.\n\nPlease check the booking here: <a href=\"/app/ride-booking/{{doc.name}}\">Link</a>",
+ "message_type": "Markdown",
+ "modified": "2024-03-30 10:35:36.970183",
+ "modified_by": "Administrator",
+ "module": "ICab",
+ "name": "New Booking Notification",
+ "owner": "Administrator",
+ "property_value": "",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "",
+ "subject": "New Booking Arrived from {{doc.customer_name}} for {{doc.vehicle}} "
+}
